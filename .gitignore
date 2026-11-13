@@ -20,6 +20,9 @@ node_modules/
 ChatHistory.md.txt
 New Text Document.txt
 
+# Local report documents (docx + markdown source + generator)
+docs/
+
 # OS / editor
 .DS_Store
 Thumbs.db
