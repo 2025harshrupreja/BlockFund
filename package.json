@@ -1,0 +1,26 @@
+{
+  "name": "blockfund",
+  "version": "1.0.0",
+  "description": "BlockFund - a decentralized all-or-nothing crowdfunding platform built with Solidity, Hardhat and Ethers.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "crowdfunding",
+    "dapp",
+    "hardhat"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "hardhat": "^3.21.2"
+  }
+}

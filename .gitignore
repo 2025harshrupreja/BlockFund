@@ -1,0 +1,25 @@
+# Hardhat
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain-types/
+types/
+
+# Frontend generated files (written by the deploy script)
+frontend/js/contract-address.json
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Local notes / scratch files
+ChatHistory.md.txt
+New Text Document.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
